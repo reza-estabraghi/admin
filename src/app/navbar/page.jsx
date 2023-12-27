@@ -148,7 +148,7 @@ export default function Navbar() {
                         <Image src={img} alt="image" />
                     </figure>
                 </div>
-                <div ref={aside} className="absolute top-0 left-0 md:hidden w-[0] bg-white h-[100vh] [transition:1s] z-[99]">
+                <div ref={aside} className="fixed top-0 left-0 md:hidden w-[0] bg-white h-[100vh] [transition:1s] z-[99]">
                     <aside className='relative w-full overflow-hidden '>
                         <button onClick={() => {
                             if (side == true) {
